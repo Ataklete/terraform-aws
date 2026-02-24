@@ -15,7 +15,7 @@ resource "aws_instance" "section_04" {
 
 resource "aws_key_pair" "deploye" {
   key_name   = "aws_key"
-  public_key = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAID7O8dKPy+tUY8F4YIGvKFGvlOHvA0OWga7A3Aqkf0wz"
+  public_key = "need ssh-ed25519 key replace it"
 }
 
 resource "aws_security_group" "sg_ssh" {
